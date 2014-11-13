@@ -42,7 +42,6 @@ Code Example
 ```
 Options
 =======
-  * id: number,
   * name: string, 
   * showEventDate: boolean, (show event date ?)
   * dataClass: string, (add event class)
