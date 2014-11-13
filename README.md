@@ -6,8 +6,10 @@ jquery plugin for creating plan or schedule
 Code Example
 =============
   html:
+  ```
   <div id="planner" style=""></div>
-  
+  ```
+  ```
   javascript: 
   data = [
     {
@@ -38,7 +40,7 @@ Code Example
 			endDate: "2014-11-15"
 		});
 	});
-
+	```
 Options
 =======
   * name: string, 
@@ -51,6 +53,7 @@ Options
 
 Data structure
 ==============
+```
   array_of_object = [
     {
       id: number, #not used for now
@@ -61,3 +64,8 @@ Data structure
       bgcolor: 'string', #background color
     },
   ]
+```
+
+License
+=======
+MIT license
