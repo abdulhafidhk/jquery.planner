@@ -9,6 +9,7 @@ Code Example
   ```
   <div id="planner" style=""></div>
   ```
+  javascript
   ```
   javascript: 
   data = [
@@ -40,7 +41,7 @@ Code Example
 			endDate: "2014-11-15"
 		});
 	});
-	```
+```
 Options
 =======
   * name: string, 
