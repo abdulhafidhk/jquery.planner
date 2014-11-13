@@ -11,7 +11,6 @@ Code Example
   ```
   javascript
   ```javascript
-  javascript: 
   data = [
     {
 			id: 1, 
@@ -35,7 +34,6 @@ Code Example
 		}
   ];
   $(document).ready(function(){
-		var now = new Date();
 		$("#planner").jPlanner(data,{
 			startDate: "2014-10-1",
 			endDate: "2014-11-15"
