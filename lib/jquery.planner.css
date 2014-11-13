@@ -1,10 +1,9 @@
 /*!
- * jQuery Planner V.1.4.0
+ * jQuery Planner V.1.0.0
  * by Abdul HK
  */
 .jplanner-table{
-	border-right:1px solid #ddd;
-	height:auto;
+	border-collapse:collapse;
 }
 .jplanner-table>thead>tr>td,
 .jplanner-table>tbody>tr>td,
@@ -12,12 +11,12 @@
 .jplanner-table>tbody>tr>th{
 	padding: 5px;
 	vertical-align: top;
-	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;
 	min-width:10px;
 }
 .jplanner-plan{
 	position:absolute;
-	width:30%;
+	width:300px;
 	top:auto;
 	left:0px;
 	border-right:1px solid #ddd;
@@ -26,7 +25,7 @@
 	overflow-x:scroll;
 	overflow-y:visible;
 	width:inherit;
-	margin-left:30%;
+	margin-left:305px;
 	padding-bottom:1px;
 	height:auto;
 }
