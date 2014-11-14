@@ -24,7 +24,8 @@ Code Example
 			name: "Design 2",
 			start: "2014-10-14",
 			end: "2014-10-20",
-			bgcolor: '#cc7700'
+			bgcolor: '#cc7700',
+			desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
 		},
 		{
 			id: 3, 
@@ -44,6 +45,8 @@ Options
 =======
   * name: string, 
   * showEventDate: boolean, (show event date ?)
+  * showDesc: boolean, (show description in tooltip ?)
+  * showTooltipName: boolean, (show event name in tooltip ?)
   * dataClass: string, (add event class)
   * color: string, (event font color default: #ffffff)
   * bgcolor: string, (event background color default: #73B85E)
@@ -55,16 +58,25 @@ Data structure
 ```javascript
   array_of_object = [
     {
-      id: number, #not used for now
-      name: 'string', #event name
+      id: number, // not used for now
+      name: 'string', // event name
       start: 'yyyy-mm-dd'/date,
       end: 'yyyy-mm-dd'/date,
-      color: 'string', #font color
-      bgcolor: 'string', #background color
+      color: 'string', // font color
+      bgcolor: 'string', // background color
+	  desc: 'string' // show in tooltip
     },
   ]
 ```
-
+CSS
+=====
+CSS class:
+```css
+	.jplanner-table{} // event table
+	.jplanner-plan{} // event row
+	.jplanner-event{} // event date
+	
+```
 License
 =======
 MIT license
