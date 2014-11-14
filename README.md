@@ -2,6 +2,7 @@ jquery.planner
 ==============
 
 jquery plugin for creating plan or schedule
+![capture](http://gdurl.com/8FjE)
 
 Code Example
 =============
