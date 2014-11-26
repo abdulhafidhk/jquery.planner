@@ -80,3 +80,6 @@ span.j-event-tooltip b {
 	border-right:1px solid #ddd;
 	border-left:1px solid #ddd;
 }
+.jplanner-today{
+	border-left:1px solid #ff0000;
+}
