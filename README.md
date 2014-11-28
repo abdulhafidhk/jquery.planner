@@ -6,7 +6,16 @@ jquery plugin for creating plan or schedule
 
 Code Example
 =============
-  html:
+how to use:
+```javascript
+	$('selector').jPlanner(Data,[Options]);
+	/* 
+	data : array of object
+	options: array of object
+	*/
+	
+```
+Example html:
   ```html
   <div id="planner" style=""></div>
   ```
